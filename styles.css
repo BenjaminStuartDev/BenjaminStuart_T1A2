@@ -8,6 +8,7 @@
     --green: #006845;
     --yellow: #D88200;
     --grey: #F4F4F5;
+    --dgrey: #72767D;
 }
 
 html,body {
@@ -19,7 +20,12 @@ html,body {
 .black {
     --color: black;
 }
-
+.grey {
+    --color: var(--grey);
+}
+.dgrey {
+    --color: #72767D;
+}
 .blue {
     --color: var(--blue);
 }
@@ -110,6 +116,7 @@ html,body {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 24pt;
+    letter-spacing: 1pt;
     color: var(--color);
 }
 
@@ -119,6 +126,14 @@ html,body {
     font-weight: normal;
     font-size: 18pt;
 }
+.oswold-link {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 18pt;
+    color: var(--color);
+    letter-spacing: 1pt;
+}
+
 #col-overide {
     color: var(--color);
 }
@@ -146,8 +161,7 @@ html,body {
 .homepage-image-wrapper {
     width: 50%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
 .homepage-image-wrapper img {
@@ -155,20 +169,47 @@ html,body {
     width: 70%;
     height: auto;
 }
+
 h2 {
     margin: 1em 0% 0% 10%;
 }
 
+/* Stylising for link + arrow */
+.link-wrapper {
+    margin-left: 18.5%;
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link-wrapper img {
+    margin-left: 0;
+    margin-top: 1%;
+    height: fit-content;
+    width: auto;
+
+}
 /* Stylising homepage contact form */
 form {
     margin: 1em 0% 0% 10%;
 }
 
-label, input {
+label, input, textarea{
     display: flex;
     flex-direction: column;
 }
+label {
+    margin:1em 0em;
+}
+input, textarea{
+    width:100%;
+    height: 3em;
+    border-radius:7px;
+    border: solid 2px var(--color);
+    background-color: var(--grey);
+}
 
-input {
-    width:40%;
+textarea {
+    height: 6em;
 }

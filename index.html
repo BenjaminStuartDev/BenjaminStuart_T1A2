@@ -11,6 +11,7 @@
     <title>Home</title>
 </head>
 <body>
+    <!-- Navbar with current page "active" which gives current page a border and all "inactive" links in navbar a hover effect-->
     <nav class="navbar">
         <ul>
             <li class="blue active">
@@ -26,10 +27,29 @@
                 <a class="bg-color red" href="https://google.com">Works</a>
             </li>
         </ul>
-        <!-- TODO: Make a navbar containing 4 boxes -->
     </nav>
-    <section>
-        <!-- TODO: Make header and paragraph, graphical image animation and contact form with resume link-->
+
+    <section class="homepage-wrapper">
+        <div class="homepage-intro-wrapper">
+            <h1 class="blue">Hello!</h1>
+            <p class="black">My name is <span class="red">Benjamin.</span> I am a current Coder Academy student with an interest in UX/UI design. (: </p>
+            <div> 
+                <h2>Contact me:</h2>
+                <form>
+                    <label for="contactname">Name</label>
+                    <input type="text" id="contactname" name="name"/>
+                    <label for="contactemail">Email</label>
+                    <input type="text" id="contactemail" name="email"/>
+                    <label for="formmessage">Message</label>
+                    <input type="text" id="formmessage" name="message"/>
+                </form>
+            </div>
+            <!-- TODO: create text and contact form-->
+        </div>
+        <div class="homepage-image-wrapper">
+            <!-- TODO: insert graphical image -->
+            <img src="/Assets/Homepage-pic.png" alt="Image of Benjamin Stuart wearing a cool looking hoodie and smiling with trees in the background"/>
+        </div>
     </section>
     <footer>
         <!-- TODO: Make the footer linking to linkedin, github and twitter -->

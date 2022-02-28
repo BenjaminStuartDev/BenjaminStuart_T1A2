@@ -70,11 +70,6 @@ html,body {
     align-items: center;
     width: 7vw;
     height: 7vw;
-    font-family: 'Oswald', sans-serif;
-    color: var(--grey);
-    font-weight: bold;
-    font-size: 15pt;
-    letter-spacing: 0.5pt;
 }
 
 /* Navbar anchor tag hover styling */
@@ -90,6 +85,43 @@ html,body {
     transition: 500ms;
 }
 
+/* Fonts styles */
+.oswold-nav {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15pt;
+    letter-spacing: 0.5pt;
+    color: var(--grey);
+    font-weight: bold;
+}
+
+.oswold-h1 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--color);
+    font-weight: bold;
+    font-size: 35pt;
+}
+.oswold-h2 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--color);
+    font-weight: bold;
+    font-size: 22pt;
+}
+.oswold-para {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 24pt;
+    color: var(--color);
+}
+
+.oswold-form {
+    letter-spacing: 1pt;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    font-size: 18pt;
+}
+#col-overide {
+    color: var(--color);
+}
 /* Styling homepage intro */
 .homepage-wrapper {
     display: flex;
@@ -104,21 +136,10 @@ html,body {
 
 .homepage-intro-wrapper h1 {
     margin: 0% 0% 0% 10%;
-    font-family: 'Oswald', sans-serif;
-    color: var(--color);
-    font-weight: bold;
-    font-size: 35pt;
 }
 
 .homepage-intro-wrapper p {
     margin: 1em 0% 0% 10%;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    font-size: 24pt;
-}
-
-.homepage-intro-wrapper p>span {
-    color: var(--color);
 }
 
 /* Styling homepage image */
@@ -134,10 +155,20 @@ html,body {
     width: 70%;
     height: auto;
 }
+h2 {
+    margin: 1em 0% 0% 10%;
+}
 
 /* Stylising homepage contact form */
+form {
+    margin: 1em 0% 0% 10%;
+}
 
 label, input {
     display: flex;
     flex-direction: column;
+}
+
+input {
+    width:40%;
 }

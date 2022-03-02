@@ -8,10 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Home</title>
+    <title>Experience</title>
 </head>
 <body>
-    <!-- Navbar with current page "active" which gives current page a border and all "inactive" links in navbar a hover effect-->
     <nav class="navbar">
         <ul>
             <li class="blue active">
@@ -29,28 +28,27 @@
         </ul>
     </nav>
 
-    <section class="page-wrapper home-page-wrapper-padding">
-        <div class="page-text-wrapper">
-            <h1 class="blue oswold-h1">Hello!</h1>
-            <p class="oswold-para black">My name is <span class="col-overide red">Benjamin.</span> I am a current Coder Academy student with an interest in UX/UI design. (: </p>
-            <div> 
-                <h2 class="oswold-h2 dgrey">Contact me:</h2>
-                <form class="oswold-form yellow">
-                    <label for="contactname">Name:</label>
-                    <input type="text" id="contactname" name="name"/>
-                    <label for="contactemail">Email:</label>
-                    <input type="text" id="contactemail" name="email"/>
-                    <label for="formmessage">Message:</label>
-                    <textarea rows="3" id="formmessage" name="message"></textarea>
-                </form>
+    <section class="page-wrapper">
+        <div>
+            <div class="exp-card">
+                <h2 class="dgrey oswold-h2">Programming:</h2>
+                <p class="oswold-para">After undertaking a computer science course in Python at UQ and completing the Harvard CS50 online course I have strong programming experience with C, Python, Ginga and Flask. In addition to this I have experience working with HTML, CSS, SASS and SQLITE.</p>
+                <img src="/assets/programming_skills.png" alt="">
             </div>
         </div>
-        <div class="page-image-wrapper">
-            <img src="/assets/Homepage-pic.png" alt="Image of Benjamin Stuart wearing a cool looking hoodie and smiling with trees in the background"/>
-            <div class="link-wrapper" id="in-line-link-wrapper">
-                <a class="oswold-link blue" href="/assets/Benjamin Stuart.pdf">See my resume!</a>
-                <img src="/assets/arrow_vector.svg" alt="Arrow pointing at link"> 
+        <div>
+            <div class="exp-card">
+                <h2 class="dgrey oswold-h2">Volunteer Work:</h2>
+                <p class="oswold-para">For 2 years I worked in a retail space with a team of volunteers for the Australian Red Cross. It was with our strong values, teamwork, customer service and organisation skills that we raised ~100,000$.</p>
+                <img src="/assets/red_cross.png" alt="">
             </div>
+        </div>
+    </section>
+    <section class="exp-card oswold-para align-center">
+        <p>In addition to my programming experience and volunteerwork I have been a line cook and kitchen manager for 2 years and an experienced radio operator for 3.</p>
+        <div class="link-wrapper" id="in-line-link-wrapper">
+            <a class="oswold-link blue" href="/assets/Benjamin Stuart.pdf">See my resume!</a>
+            <img src="/assets/arrow_vector.svg" alt="Arrow pointing at link"> 
         </div>
     </section>
 

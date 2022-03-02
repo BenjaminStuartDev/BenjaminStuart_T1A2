@@ -283,9 +283,6 @@ form {
 label {
     margin:1em 0em;
 }
-textarea {
-    height: 6em;
-}
 label, input, textarea{
     display: flex;
     flex-direction: column;
@@ -296,6 +293,9 @@ input, textarea{
     border-radius:7px;
     border: solid 2px var(--color);
     background-color: var(--grey);
+}
+textarea {
+    height: 6em;
 }
 
 /* Footer Styling */

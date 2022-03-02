@@ -201,6 +201,9 @@ h2 {
     padding-right: 8vw;
     flex-direction:row;
 }
+.page-text-wrapper ol {
+    padding-left: 2rem;
+}
 
 .page-text-wrapper p {
     margin-top: 1em;
@@ -424,5 +427,8 @@ textarea {
     }
     #alt-page-text-wrapper p>span>img {
         width: 16pt;
+    }
+    .page-text-wrapper ol {
+        padding-left: 1rem;
     }
 }

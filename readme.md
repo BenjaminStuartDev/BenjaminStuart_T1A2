@@ -54,21 +54,21 @@ PDF link:
 - alt-page-wrapper is another container similar to the page-wrapper card which is used to override styling for responsiveness on the about page.
 ###  Sitemap
 The homepage is the sites landing page and from there all other sites are navigated to via the navbar at the top of the screen.
-![alt text](/docs/wireframe.png)
+![Sitemap](/docs/wireframe.png)
 
 ### Screenshots
-Navbar:  
-![alt text](/docs/navbar.png)
-Footer:  
-![alt text](/docs/footer.png)
-Contact Form:  
-![alt text](/docs/form.png)
-Blog Card:  
-![alt text](/docs/blog_card.png)
-Contents:  
-![alt text](/docs/contents.png)
-Resume-link:  
-![alt text](/docs/resume_link.png)
+#### Navbar:  
+![Navbar Screenshot](/docs/navbar.png)  
+#### Footer:  
+![Footer Screenshot](/docs/footer.png)  
+#### Contact Form:  
+![Contact Form Screenshot](/docs/form.png)  
+#### Blog Card:  
+![Blog Card Screenshot](/docs/blog_card.png)  
+#### Contents:  
+![Contents Screenshot](/docs/contents.png)  
+#### Resume-link:  
+![Resume PDF](/docs/resume_link.png)  
 
 
 ### Tech Stack

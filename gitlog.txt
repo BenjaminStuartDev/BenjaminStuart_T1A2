@@ -1,6 +1,21 @@
-commit 6e94f1679c8e567b4cb11f7ebc7de2a3527a807b (HEAD -> master, origin/master)
+commit 8cda352b5f760b7d1370d0f301888845afd2194f (HEAD -> master, origin/master)
 Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
-Date:   Sun Mar 6 13:18:58 2022 +1000
+Date:   Sun Mar 6 13:47:34 2022 +1000
+
+    Fixed alternative text for images in readme.md
+
+commit 990fd8d01b6aa551877fc2a88635965f2c727f5c
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Sun Mar 6 13:33:24 2022 +1000
+
+    updated presentation
+
+commit 1a0da1ff1196d2248e0bd8eeec87a302b5cbb938
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Sun Mar 6 13:24:20 2022 +1000
+
+    added gitlog
+
 
     Added presentation
 

@@ -2,7 +2,8 @@
 Author: Benjamin Stuart  
 Date: 06/03/2022  
 Website: https://benjaminstuart.dev/   
-Github Repo: https://github.com/BenjaminStuartDev/T1A2
+Github Repo: https://github.com/BenjaminStuartDev/T1A2  
+Git Log: [Git Log](/gitlog.txt)
 ## Website overview: 
 
 My portfolios purpose is to showcase my best works, personality, skills and creativity in a design that is accessible, clean and colourful. The goal of my design is to portray my human and developer skills in a way that is engaging the target audience, *employers and potential clients*.

@@ -1,0 +1,74 @@
+commit 6e94f1679c8e567b4cb11f7ebc7de2a3527a807b (HEAD -> master, origin/master)
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Sun Mar 6 13:18:58 2022 +1000
+
+    Added presentation
+
+commit e877eb2b1812565c799a747451139382e237b498
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Sun Mar 6 12:54:24 2022 +1000
+
+    restructured repository and added comments + readme.md
+
+commit ce8d1f97bc319340d233c70e59c143fe436b0b57
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Thu Mar 3 11:42:58 2022 +1000
+
+    fixed form to have submit button
+
+commit d0d5db2f63a9118858a7578fad08dac635ae6a15
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Wed Mar 2 15:22:21 2022 +1000
+
+    Recommit
+
+commit 540d35554fd9bcf4401abb8b560d1f9ae4be1283
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Wed Mar 2 15:21:40 2022 +1000
+
+    Recommit
+
+commit e7d572b029c2a2ac017235b5855a786ec9ac6e6b
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Wed Mar 2 15:15:57 2022 +1000
+
+    Cleaned irrelevent  CSS
+
+commit dc2ea31ea613920fd4f857f02c82e089b1f8808f
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Wed Mar 2 15:01:32 2022 +1000
+
+    added list on works page
+
+commit deed5c117aa54b73ef5e0bd6f58704cc3e2fbc20
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Wed Mar 2 11:41:20 2022 +1000
+
+    Completed Experience page and fixed alt text errors
+
+commit 6301ef5ca42ecd44f7ab03235f8855109a108228
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Wed Mar 2 10:19:31 2022 +1000
+
+    completed the works.html page
+
+commit 289be251f1423ebbb04ef0f5ffa3eb18c901f87e
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Tue Mar 1 13:05:18 2022 +1000
+
+    Added text sizing to media query and implemented about.html
+
+commit 5815aca4c5a4cdc6f992a86db188c19868558c01
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Mon Feb 28 16:40:23 2022 +1000
+
+    Homepage completed
+
+    Implemented Navbar
+
+commit 88fcbec6b7becd9c0e7217e59dbb46980d3c933d
+Author: Benjamin stuart <Benjamin.stuart001@outlook.com>
+Date:   Sat Feb 26 10:28:51 2022 +1000
+
+    initialising repo
+(END)

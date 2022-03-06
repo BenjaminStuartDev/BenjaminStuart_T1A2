@@ -6,6 +6,8 @@ Github Repo: https://github.com/BenjaminStuartDev/T1A2
 ## Website overview: 
 
 My portfolios purpose is to showcase my best works, personality, skills and creativity in a design that is accessible, clean and colourful. The goal of my design is to portray my human and developer skills in a way that is engaging the target audience, *employers and potential clients*.
+### Target Audience:
+My target audience is prospective employers and clients on all device widths.
 
 ###  Functionality/Features: 
 
@@ -23,13 +25,13 @@ Navbar:
 
 Footer: 
 - The footer is at the bottom of all pages and serves as a linking point to my twitter, github and linkedin. 
-- The footer caters to accessibility in the same way as the navbar using appropriate colours and semantic tags that are readable by screen readers. 
+- The footer caters to accessibility in the same way as the navbar using appropriate colours and semantic tags that are useable by screen readers. 
 - The footer utilises a scale effect which highlights to the user that they are clickeable.
 
 Contact Form: 
 - The contact form is on my homepage and encourages potential employers/clients to contact me directly.
 - The form caters to screen readers through the clear usage of input labels.
-- The form is user friendly and accessible through the usage of the autocomplete field as well as changing to blue when the users cursor is active inside the input area. 
+- The form is user friendly and accessible through the usage of the autocomplete field as well as changing to blue when the users is active inside the input area. 
 
 Cards:
 - Cards are a generic styling used across the website to style and contain items. 
@@ -67,6 +69,7 @@ Contents:
 Resume-link:  
 ![alt text](/docs/resume_link.png)
 
+
 ### Tech Stack
 The list of technologies used to build and design this website include:  
 - Figma for the design of the website.
@@ -74,4 +77,4 @@ The list of technologies used to build and design this website include:
 - Live-server for ongoing previews of the website during the build phase. 
 - Git for the repository cloud service.
 - Netlify for the hosting of the website.
-- Webaim and Webaims WAVE extension for the debugging accessibility.
+- Webaim and Webaims WAVE extension for debugging accessibility.

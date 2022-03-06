@@ -50,11 +50,8 @@ h2 {
 .bg-color {
     background-color: var(--color);
 }
-/* list items in ascending order nav >nav>lu nav>lu>li */
-/* navbar .navbar ul > li vs .navbar ul li */
-/* Ids should be unique to one component or element use classes instead */
 
-/* Navbar styling */
+/* Navbar component styling <---- */
 .navbar {
     display:flex;
     justify-content: flex-end;
@@ -172,17 +169,17 @@ h2 {
 .page-text-wrapper p {
     margin-top: 1em;
 }
-#alt-page-text-wrapper {
+.alt-page-text-wrapper {
     align-items: center; 
     text-align: center;
     padding-top: 5em;
     padding-bottom: 5em;
     width: 100%
 }
-#alt-page-text-wrapper p {
+.alt-page-text-wrapper p {
     padding: 1em 10vw;
 }
-#alt-page-text-wrapper p>span>img {
+.alt-page-text-wrapper p>span>img {
     width: 25pt;
 }
 .home-page-wrapper-padding {
@@ -220,17 +217,17 @@ h2 {
 }
 
 /* Unique image styling */
-#quarter-width-img {
+.quarter-width-img {
     width: 25vw;
 }
-#half-width-img {
+.half-width-img {
     width: 50vw;
 }
-#full-width-img {
+.full-width-img {
     width: 100vw;
 }
 
-/* Blog card styling */
+/* Blog card component styling  <----  */
 .blog-card {
     display: flex;
     flex-direction: column;
@@ -276,7 +273,7 @@ h2 {
     width: auto;
 }
 
-/* Homepage contact form styling */
+/* Homepage contact form styling <---- */
 form {
     margin-top: 1em;
 }
@@ -304,7 +301,7 @@ textarea {
     border-radius: 7px;
 }
 
-/* Footer Styling */
+/* Footer Styling <---- */
 .footer {
     margin-top: 3%;
     display: flex;
@@ -376,7 +373,7 @@ textarea {
     #row-container {
         flex-direction:column-reverse ;
     }
-    #half-width-img {
+    .half-width-img {
         width:100%
     }
     .about-page-wrapper-changes {
@@ -408,7 +405,7 @@ textarea {
     .oswold-fineprint {
         font-size: 5pt;
     }
-    #alt-page-text-wrapper p>span>img {
+    .alt-page-text-wrapper p>span>img {
         width: 16pt;
     }
     .page-text-wrapper ol {

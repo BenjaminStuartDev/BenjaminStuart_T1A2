@@ -11,7 +11,7 @@
     <title>Home</title>
 </head>
 <body>
-    <!-- Navbar with current page "active" which gives current page a border and all "inactive" links in navbar a hover effect-->
+    <!-- Navbar component with current page "active" which gives current page a border and all "inactive" links in navbar a hover effect-->
     <nav class="navbar">
         <ul>
             <li class="blue active">
@@ -33,13 +33,14 @@
         <div class="page-text-wrapper">
             <h1 class="blue oswold-h1">Hello!</h1>
             <p class="oswold-para black">My name is <span class="col-overide red">Benjamin.</span> I am a current Coder Academy student with an interest in UX/UI design. (: </p>
+            <!-- Contact form with autocomplete feature. -->
             <div> 
                 <h2 class="oswold-h2 dgrey">Contact me:</h2>
                 <form class="oswold-form yellow">
                     <label for="contactname">Name:</label>
-                    <input type="text" id="contactname" name="name"/>
+                    <input autocomplete="name" type="text" id="contactname" name="name"/>
                     <label for="contactemail">Email:</label>
-                    <input type="text" id="contactemail" name="email"/>
+                    <input autocomplete="email" type="text" id="contactemail" name="email"/>
                     <label for="formmessage">Message:</label>
                     <textarea rows="3" id="formmessage" name="message"></textarea>
                     <button class="button black oswold-form">Submit</button>
@@ -47,34 +48,34 @@
             </div>
         </div>
         <div class="page-image-wrapper">
-            <img src="/assets/Homepage-pic.png" alt="Benjamin Stuart in foreground with trees in background"/>
+            <img src="./assets/Homepage-pic.png" alt="Benjamin Stuart in foreground with trees in background"/>
             <div class="link-wrapper">
-                <a class="oswold-link blue" href="/assets/Benjamin Stuart.pdf">See my resume!</a>
-                <img src="/assets/arrow_vector.svg" alt="Arrow pointing at link"> 
+                <a class="oswold-link blue" href="./assets/BenjaminStuart.pdf">See my resume!</a>
+                <img src="./assets/arrow_vector.svg" alt="Arrow pointing at link"> 
             </div>
         </div>
     </section>
-
+    <!-- Footer component with scale effect on hover and links to my developer media accounts  -->
     <footer class="footer">
         <ul>
             <li>
                 <a href="https://www.linkedin.com/in/benjamin-stuart-9040b7221/">
                     <div class="blue rectangle">
-                        <img src="/assets/linkedin_vector.svg" alt="clickable Linkedin icon">
+                        <img src="./assets/linkedin_vector.svg" alt="clickable Linkedin icon">
                     </div>
                 </a>
             </li>
             <li>
                 <a href="https://github.com/BenjaminStuartDev">
                     <div class="red rectangle">
-                        <img src="/assets/github_vector.svg" alt="clickable Github icon">
+                        <img src="./assets/github_vector.svg" alt="clickable Github icon">
                     </div>
                 </a>
             </li>
             <li>
                 <a href="https://twitter.com/BenStuartDev">
                     <div class="green rectangle">
-                        <img src="/assets/twitter_vector.svg" alt="clickable Twitter icon">
+                        <img src="./assets/twitter_vector.svg" alt="clickable Twitter icon">
                     </div>
                 </a>
             </li>

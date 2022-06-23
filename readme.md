@@ -2,7 +2,7 @@
 Author: Benjamin Stuart  
 Date: 06/03/2022  
 Website: https://benjaminstuart.dev/   
-Github Repo: https://github.com/BenjaminStuartDev/T1A2  
+Github Repo: https://github.com/BenjaminStuartDev/My-First-Portfolio
 Git Log: [Git Log](/gitlog.txt)
 ## Website overview: 
 
